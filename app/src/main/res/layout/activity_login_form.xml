@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText"
+    android:padding="40dp"
+    android:background="@drawable/login">
+
+    <EditText
+        android:id="@+id/loginEmail"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:ems="10"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_email_icon"
+        android:drawablePadding="10dp"
+        android:hint="@string/Email_Address"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp"
+        tools:ignore="Autofill,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:ems="10"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/custom_lock_icon"
+        android:drawablePadding="10dp"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textSize="14sp"
+        tools:ignore="Autofill,MissingConstraints,TextFields" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="60dp"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/retrieveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="105dp"
+        android:text="@string/retrieve"
+        />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="500dp"
+        android:text="@string/clear" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:text="@string/not_yet_registered"
+        android:layout_marginStart="55dp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/registerTv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="600dp"
+        android:text="@string/register"
+        android:layout_marginStart="220dp"
+        android:onClick="register"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>

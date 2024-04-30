@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Android Project Sem6</string>
+    <string name="email_address">email_address</string>
+    <string name="password">password</string>
+    <string name="Email_address">\n</string>
+    <string name="Email_Address">Email Address</string>
+    <string name="Password">Password\n</string>
+    <string name="login">LOGIN</string>
+    <string name="clear">CLEAR</string>
+    <string name="retrieve">RETRIEVE\n</string>
+    <string name="not_yet_registered">Not yet registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="passwrd">Password</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="registerbtn">REGISTER !!!</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer\n</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer\n</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>

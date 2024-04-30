@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup">
+
+    <EditText
+        android:id="@+id/nameRegister"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:hint="@string/name"
+        android:textColorHint="#000000"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/emailRegister"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:layout_marginTop="270dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="14sp"
+        android:hint="@string/username"
+        android:textColorHint="#000000"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/passwordRegister"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_centerHorizontal="true"
+        tools:ignore="Autofill"
+        android:textSize="14sp"
+        android:hint="@string/passwrd"
+        android:textColorHint="#000000"/>
+
+    <EditText
+        android:id="@+id/contactRegister"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="410dp"
+        android:ems="20"
+        android:inputType="number"
+        android:layout_centerHorizontal="true"
+        tools:ignore="Autofill"
+        android:textSize="14sp"
+        android:hint="@string/contact_no"
+        android:textColorHint="#000000"/>
+
+    <Button
+        android:id="@+id/registerRegisterBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/registerbtn"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>
